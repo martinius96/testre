@@ -1,3 +1,9 @@
+//Autor: Martin Chlebovec alias: martinius96
+//Podpora: https://www.paypal.me/Chlebovec
+//Osobný web: https://arduino.php5.sk
+//Email kontakt: martinius96@gmail.com
+//Facebook ID kontakt: 100001242570317
+//Používajte v súhlade s licenciou!  
 #include "Adafruit_BMP280.h"         //bmp280 kniznica s upravou na 0x76 adresu
 Adafruit_BMP280 bmp; //inicializacia BMP senzora
 void setup() {          
