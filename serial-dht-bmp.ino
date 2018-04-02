@@ -19,7 +19,7 @@ void setup() {
 void loop() {                                      //ZACIATOK SLUCKY
   delay(5000);
     Serial.println("Atmosfericky tlak: ");           //SERIOVY VYPIS TEXT O TLAKU VZDUCHU
-    Serial.println((bmp.readPressure() / 100) + 103,855); //SERIOVY VYPIS STAVU RELATIVNEHO TLAKU 30,... je konstanta pre nadmorsku vysku, ktora sa prirata k teplote. (Použite pri nadmorskej do 1000m nadmorska vyska/8,3 tuto hodnotu napiste namiesto 30,...)
+    Serial.println((bmp.readPressure() / 100) + 103.855); //SERIOVY VYPIS STAVU RELATIVNEHO TLAKU 30,... je konstanta pre nadmorsku vysku, ktora sa prirata k teplote. (Použite pri nadmorskej do 1000m nadmorska vyska/8,3 tuto hodnotu napiste namiesto 30,...)
     Serial.println("Teplota: "); 
     Serial.println(bmp.readTemperature());
     Serial.println("Vlhkost: "); 
